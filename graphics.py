@@ -25,7 +25,7 @@ class Window:
     def close(self):
         self.__is_running = False
     
-class Points:
+class Point:
     def __init__(self, x, y):
         self.x = x
         self.y = y
